@@ -31,7 +31,7 @@ final class Scraper
         $this->crawler->addHtmlContent($html);
 
         // Extract data from raw-html
-        $crawlResults = $this->crawler->filter('.functions-all__item')->each(function (Crawler $item, int $i) {
+        $crawlResults = $this->crawler->filter('.functions-all__item')->each(function (Crawler $item) {
             $title = $item->filter('h4')->text();
             $description = $item->filter('p')->text();
             return new CrawlResult($title, $description);

@@ -1,2 +1,4 @@
+node_modules
+apify_storage
 vendor
 docker

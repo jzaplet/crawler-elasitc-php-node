@@ -1,0 +1,16 @@
+{
+  "name": "foxentry-scraper",
+  "version": "1.0.0",
+  "main": "bin/console.js",
+  "repository": "git@github.com:jzaplet/foxentry-scraper.git",
+  "author": "Jiří Zapletal <zapletal@wakers.cz>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node bin/console.js"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.12.0",
+    "apify": "^1.1.1",
+    "dotenv": "^8.2.0"
+  }
+}
