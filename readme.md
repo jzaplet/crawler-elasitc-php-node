@@ -1,4 +1,4 @@
-# Foxentry scraper
+# Crawler examples for nodejs, php & elastic
 
 ## Dependencies
 - PHP-CLI: `8.0`
